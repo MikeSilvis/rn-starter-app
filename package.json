@@ -8,7 +8,8 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint -p ./tsconfig.json"
   },
   "jest": {
     "preset": "react-native",
@@ -43,6 +44,7 @@
     "react-native-typescript-transformer": "^1.2.10",
     "react-test-renderer": "16.3.1",
     "ts-jest": "^23.1.4",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "tslint": "5.11.0"
   }
 }
