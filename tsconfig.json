@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "jsx": "react-native",
+        "noEmit": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "lib": ["es7"],
+        "pretty": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": true,
+        "noFallthroughCasesInSwitch": true,
+        "strict": true,
+        "noImplicitThis": true,
+        "importHelpers": true,
+        "baseUrl": ".",
+        "paths": {
+            "gametime/*": [ "*" ],
+        },
+    },
+    "exclude": [
+        "node_modules",
+    ],
+    "compileOnSave": true
+}
