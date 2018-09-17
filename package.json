@@ -9,7 +9,8 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "jest",
-    "lint": "tslint -p ./tsconfig.json"
+    "lint": "tslint -p ./tsconfig.json",
+    "build": "tsc"
   },
   "jest": {
     "preset": "react-native",
