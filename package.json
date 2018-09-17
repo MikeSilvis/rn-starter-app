@@ -10,7 +10,8 @@
     "ios": "react-native-scripts ios",
     "test": "jest",
     "lint": "tslint -p ./tsconfig.json",
-    "build": "tsc"
+    "build": "tsc",
+    "ci": "yarn test && yarn lint && yarn build"
   },
   "jest": {
     "preset": "react-native",
