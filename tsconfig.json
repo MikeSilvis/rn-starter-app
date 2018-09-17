@@ -25,7 +25,6 @@
     },
     "exclude": [
         "node_modules",
-        "./node_modules/ts-mobileapi-client/*"
     ],
     "compileOnSave": true
 }
