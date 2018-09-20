@@ -1,7 +1,7 @@
 
 ## Available Scripts
 
-This thing is awesome
+This thing is awesome. Doing another change
 
 ### `yarn start`
 
